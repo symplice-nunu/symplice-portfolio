@@ -15,7 +15,7 @@ function App() {
 
      <SideBar />
       </div>
-      <div className="flex my-3 px-4 pl-52 mr-3 py-6 w-full  rounded-t-3xl rounded-b-3xl md:h-[950px]">
+      <div className="flex my-1 px-4 pl-52 mr-3 py-6 w-full  rounded-t-3xl rounded-b-3xl md:h-[950px]">
      <Home />
      <Routes>
       <Route exact path="/"></Route>

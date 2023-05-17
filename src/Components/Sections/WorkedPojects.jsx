@@ -5,7 +5,7 @@ function WorkedPojects() {
   return (
     <div>
        <div className='flex space-x-20'>
-       <div clas>
+       <div>
         <div className='text-[#8be88d] text-[70px]'>
             4+
         </div>
