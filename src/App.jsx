@@ -1,4 +1,7 @@
 import { useState } from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './Components/Home';
+import SideBar from './Components/SideBar';
 import './App.css'
 
 function App() {
@@ -6,13 +9,20 @@ function App() {
 
   return (
     <>
-      <h1 className="text-red-500">
-      Hello world! symplice
+     <BrowserRouter>
+    <div className='flex flex-row'>
+      <div className='my-3 mx-3 px-4 border-zinc-200 border text-white py-6 rounded-t-3xl rounded-b-3xl'> 
 
-    </h1>
-    <div className='text-blue-600'>
-      Test
+     <SideBar />
+      </div>
+      <div className="flex my-3 px-4 pl-52 mr-3 py-6 w-full  rounded-t-3xl rounded-b-3xl md:h-[950px]">
+     <Home />
+     <Routes>
+      <Route exact path="/"></Route>
+     </Routes>
     </div>
+    </div>
+    </BrowserRouter>
     </>
   )
 }

@@ -1,22 +1,40 @@
 import React from 'react'
-
+import img from "../assets/DSC_0116.jpg"
+import linkedin from "../assets/linkedin.png"
+import github from "../assets/GitHub.png"
+import { socialMedia } from './socialMedia'
+import { Link} from 'react-router-dom'
 function SideBar() {
   return (
-    <div>
-        <div>
-            <span>Symplice</span>
-            <span>Senior Software Engineer</span>
+    <div className='px-10'>
+        <div className='flex justify-between'>
+            <span className='font-bold text-3xl'>Symplice</span>
+            <span className='font-bold'>Senior Software<br /> Engineer</span>
         </div>
-        <div>
-            <img src="" alt="" />
+        <div className='my-12'>
+            <img src={img} alt="" className='rounded-3xl' />
         </div>
-        <div>
+        <div className='text-center text-2xl'>
             <p>intwarisymplice@gmail.com</p>
-            <p>Kigali, Rwanda</p>
+            <p className=''>Kigali, Rwanda</p>
         </div>
-        <div>
-            <span>&copy; </span>
+        <div className='text-center my-8 text-gray-500'>
+            <span>&copy; 2022 Symplice All Rights Reserved</span>
         </div>
+       <div className='flex flex-col space-y-32'>
+       <div className='text-center justify-center flex'>
+                                    <span>
+                                    <img className='w-10' src={ linkedin } />
+                                    
+                                    </span>
+                                    <span>
+                                        <img className='w-10' src={ github } alt="" srcset="" />
+                                    </span>
+        </div>
+        <div> 
+            <button className='bg-[#8eeb8d] text-black w-full h-[50px] rounded-3xl'>HIRE ME!</button>
+        </div>
+       </div>
     </div>
   )
 }
