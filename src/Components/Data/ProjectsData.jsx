@@ -55,12 +55,12 @@ export const ProjectsData = [
     },
     {
         projectName: 'E-Commerce Mobile App',
-        projectGit: '',
+        projectGit: 'https://github.com/symplice-nunu/Final_Project/tree/main/Shop',
         projectLive: '',
         projectImage: '',
     },
     {
-        projectName: 'Primary School Management',
+        projectName: 'Primary School Management System',
         projectGit: 'https://github.com/symplice-nunu/Primary_School',
         projectLive: '',
         projectImage: '',
