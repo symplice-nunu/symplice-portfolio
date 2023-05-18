@@ -1,9 +1,13 @@
 import React from 'react'
 import Introduce from './Sections/Introduce'
+import Skills from './Sections/Skills'
 
 function Home() {
   return (
-    <Introduce />
+    <div>
+      <div><Introduce /></div>
+      <div> <Skills /> </div>
+    </div>
     
   )
 }

@@ -4,7 +4,7 @@ import Certificates from './Sections/Certificates'
 function Resume() {
   return (
     <div>
-        <div className='mt-20 text-white border w-32 py-2 px-7 rounded-3xl'>RESUME</div>
+        <div className='mt-20 text-white border border-gray-600 w-32 py-2 px-7 rounded-3xl'>RESUME</div>
         <div className='text-[70px] text-white my-14'>
             Education & <span className='text-[#8be88d]'>Experience</span>
         </div>
