@@ -4,24 +4,24 @@ export const SideBarIcons = [
         sideIcons: 'H',
     },
     {
-        sideIcons: 'H',
+        sideIcons: 'W',
     },
     {
-        sideIcons: 'H',
+        sideIcons: 'S',
     },
     {
-        sideIcons: 'H',
+        sideIcons: 'R',
     },
     {
-        sideIcons: 'H',
+        sideIcons: 'T',
     },
     {
-        sideIcons: 'H',
+        sideIcons: 'U',
     },
     {
-        sideIcons: 'H',
+        sideIcons: 'I',
     },
     {
-        sideIcons: 'H',
+        sideIcons: 'O',
     }
 ]
