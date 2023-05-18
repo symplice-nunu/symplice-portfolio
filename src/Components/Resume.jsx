@@ -1,4 +1,5 @@
 import React from 'react'
+import Certificates from './Sections/Certificates'
 
 function Resume() {
   return (
@@ -61,6 +62,7 @@ function Resume() {
             </div>
             </div>
         </div>
+        <Certificates />
     </div>
   )
 }
