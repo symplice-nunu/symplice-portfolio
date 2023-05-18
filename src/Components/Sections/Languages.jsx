@@ -8,7 +8,7 @@ function Languages() {
         <div>
             <div className='text-white text-[25px] mt-2'>English</div>
             <div className='flex justify-between'>
-            <div className='text-gray-400'>Professional Working Proficiency</div>
+            <div className='text-gray-400'></div>
             </div>
         </div>
     </div>
