@@ -1,5 +1,4 @@
 import React from 'react'
-import Resume from './Resume'
 
 function About() {
   return (
@@ -13,7 +12,6 @@ function About() {
         talented people to create digital products for both business and consumer use. <br />
         I'm quietly confident, naturally curious, and perpetually working on improving my <br /> chopsonendesign problem at a time.
     </div>
-    <Resume />
     </div>
   )
 }

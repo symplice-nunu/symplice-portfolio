@@ -1,5 +1,4 @@
 import React from 'react'
-import About from '../About'
 
 function WorkedPojects() {
   return (
@@ -22,7 +21,6 @@ function WorkedPojects() {
         </div>
         </div>
        </div>
-       <About />
     </div>
   )
 }

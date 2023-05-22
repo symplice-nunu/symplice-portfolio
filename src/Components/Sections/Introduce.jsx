@@ -1,6 +1,5 @@
 import React from 'react'
 import { SideBarIcons } from '../Data/SideBarIcons'
-import WorkedPojects from './WorkedPojects'
 
 function Introduce() {
   return (
@@ -40,7 +39,6 @@ function Introduce() {
         </div>
       </div>
     </div>
-    <WorkedPojects />
     </div>
   )
 }

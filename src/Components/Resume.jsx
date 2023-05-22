@@ -1,5 +1,4 @@
 import React from 'react'
-import Certificates from './Sections/Certificates'
 
 function Resume() {
   return (
@@ -18,12 +17,7 @@ function Resume() {
             </div>
             <div>
             <div>
-            <div className='mt-[-11px] text-[#8be88d]'>2021 - Present</div>
-            <div className='text-white text-[35px] mt-5'>Software Engineer</div>
-            <div className='flex justify-between'>
-            <div className='text-gray-400'>Techaffinity</div>
-            <div className='text-gray-400'>Remote</div>
-            </div>
+            
             <div className='text-gray-400 text-[13px] pt-2'>PHP(CodeIgniter, Laravel, and wordpress) | Git | GitHub | Flutter | Sql Server | JQuery | ReactJs | MySql | HTML5 | CSS | Tailwind css</div>
             </div>
             <div>
@@ -61,8 +55,8 @@ function Resume() {
             </div>
             </div>
             </div>
+        
         </div>
-        <Certificates />
     </div>
   )
 }

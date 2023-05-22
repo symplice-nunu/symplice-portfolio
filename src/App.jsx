@@ -17,6 +17,7 @@ function App() {
       </div>
       <div className="flex my-1 px-4 pl-52 mr-3 py-6 w-full  rounded-t-3xl rounded-b-3xl md:h-[950px]">
      <Home />
+     
      <Routes>
       <Route exact path="/"></Route>
      </Routes>
