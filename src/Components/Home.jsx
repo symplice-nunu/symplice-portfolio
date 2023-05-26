@@ -17,7 +17,7 @@ function Home() {
       <div><About /></div>
       <div><Resume /></div>
       <div><Certificates /></div>
-      <div> <Skills /> </div>
+      <div><Skills /> </div>
       <div><Projects /></div>
       <div><Languages /></div>
       <div><Contact /></div>

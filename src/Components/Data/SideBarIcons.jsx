@@ -1,27 +1,34 @@
-
+import { AiOutlineHome } from "react-icons/ai";
+import { BsFillPersonFill } from "react-icons/bs";
+import { MdCastForEducation } from "react-icons/md";
+import { AiOutlineProject } from "react-icons/ai";
+import { GiSkills } from "react-icons/gi";
+import { TbCertificate } from "react-icons/tb";
+import { AiOutlineMail } from "react-icons/ai";
+import { MdLanguage } from "react-icons/md";
 export const SideBarIcons = [
     {
-        sideIcons: 'H',
+        sideIcons: <AiOutlineHome />,
     },
     {
-        sideIcons: 'W',
+        sideIcons: <BsFillPersonFill />,
     },
     {
-        sideIcons: 'S',
+        sideIcons: <MdCastForEducation />,
     },
     {
-        sideIcons: 'R',
+        sideIcons: <AiOutlineProject />,
     },
     {
-        sideIcons: 'T',
+        sideIcons: <GiSkills />,
     },
     {
-        sideIcons: 'U',
+        sideIcons: <TbCertificate />,
     },
     {
-        sideIcons: 'I',
+        sideIcons: <AiOutlineMail />,
     },
     {
-        sideIcons: 'O',
+        sideIcons: <MdLanguage />,
     }
 ]
