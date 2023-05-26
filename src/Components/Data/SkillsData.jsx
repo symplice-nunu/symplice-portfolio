@@ -1,96 +1,122 @@
+import { SiPhp } from 'react-icons/si';
+import { FaLaravel } from 'react-icons/fa';
+import { SiCodeigniter } from 'react-icons/si';
+import { SiPowerbi } from 'react-icons/si';
+import { FiFigma } from 'react-icons/fi';   
+import { DiJava } from 'react-icons/di';
+import { SiFlutter } from 'react-icons/si';
+import { FaReact } from 'react-icons/fa';
+import { FaVuejs } from 'react-icons/fa';
+import { BsWordpress } from 'react-icons/bs';
+import { SiTailwindcss } from 'react-icons/si';
+import { AiFillHtml5 } from 'react-icons/ai';
+import { BsFiletypeCss } from 'react-icons/bs';
+import { SiMysql } from 'react-icons/si';
+import { BsFiletypeSql } from 'react-icons/bs';
+import { SiPostgresql } from 'react-icons/si';
+import { SiFirebase } from 'react-icons/si';
+import { AiFillGithub } from 'react-icons/ai';
+import { SiJquery } from 'react-icons/si';
+import { SiAdobexd } from 'react-icons/si';
+
 export const SkillsData = [
     {
-        skillsLogo: 'P',
+        skillsLogo: <SiPhp />,
         skillsName: 'PHP',
         skillsPercentage: '93',
     },
     {
-        skillsLogo: 'L',
+        skillsLogo: <FaLaravel />,
         skillsName: 'Laravel',
         skillsPercentage: '91',
     },
     {
-        skillsLogo: 'C',
+        skillsLogo: <SiCodeigniter />,
         skillsName: 'CodeIgniter',
         skillsPercentage: '90',
     },
     {
-        skillsLogo: 'P',
+        skillsLogo: <SiPowerbi />,
         skillsName: 'PowerBi',
         skillsPercentage: '89',
     },
     {
-        skillsLogo: 'F',
+        skillsLogo: <SiAdobexd />,
+        skillsName: 'Adobe XD',
+        skillsPercentage: '80',
+    },
+    {
+        skillsLogo: <FiFigma />,
         skillsName: 'Figma',
         skillsPercentage: '80',
     },
     {
-        skillsLogo: 'J',
+        skillsLogo: <DiJava />,
         skillsName: 'JSP',
         skillsPercentage: '70',
     },
     {
-        skillsLogo: 'F',
+        skillsLogo: <SiFlutter />,
         skillsName: 'Flutter',
         skillsPercentage: '70',
     },
     {
-        skillsLogo: 'R',
+        skillsLogo: <FaReact />,
         skillsName: 'React Js',
         skillsPercentage: '60',
     },
     {
-        skillsLogo: 'V',
+        skillsLogo: <FaVuejs />,
         skillsName: 'VueJs',
         skillsPercentage: '55',
     },
     {
-        skillsLogo: 'W',
+        skillsLogo: <BsWordpress />,
         skillsName: 'Wordpress',
         skillsPercentage: '55',
     },
     {
-        skillsLogo: 'T',
+        skillsLogo: <SiTailwindcss />,
         skillsName: 'TailwindCSS',
         skillsPercentage: '55',
     },
     {
-        skillsLogo: 'H',
+        skillsLogo: <AiFillHtml5 />,
         skillsName: 'HTML5',
         skillsPercentage: '92',
     },
     {
-        skillsLogo: 'C',
+        skillsLogo: <BsFiletypeCss />,
         skillsName: 'CSS',
         skillsPercentage: '85',
     },
     {
-        skillsLogo: 'M',
+        skillsLogo: <SiMysql />,
         skillsName: 'MySql',
         skillsPercentage: '87',
     },
     {
-        skillsLogo: 'S',
+        skillsLogo: <BsFiletypeSql />,
         skillsName: 'Sql Server',
         skillsPercentage: '75',
     },
     {
-        skillsLogo: 'P',
+        skillsLogo: <SiPostgresql />,
         skillsName: 'Postgress',
         skillsPercentage: '55',
     },
     {
-        skillsLogo: 'F',
+        skillsLogo: <SiFirebase />,
         skillsName: 'Firebase',
         skillsPercentage: '50',
     },
     {
-        skillsLogo: 'G',
+        skillsLogo: <AiFillGithub />,
         skillsName: 'GitHub',
         skillsPercentage: '85',
     },
     {
-        skillsLogo: 'J',
+        skillsLogo: <SiJquery />,
         skillsName: 'Jquery',
         skillsPercentage: '65',
     }
