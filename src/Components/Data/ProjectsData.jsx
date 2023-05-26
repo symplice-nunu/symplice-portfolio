@@ -1,16 +1,22 @@
+import HerculesImage from '../../assets/ProjectImages/hercules.png'
+import Chatpoint from '../../assets/ProjectImages/chatpoint.png'
+import Imboni from '../../assets/ProjectImages/imboni.png'
+import bms from '../../assets/ProjectImages/bmanagementsystem.png'
+import mealMateApp from '../../assets/ProjectImages/mealMateApp.png'
+import rideApp from '../../assets/ProjectImages/rideApp.png'
 export const ProjectsData = [
     {
         projectName: 'Hercules freight',
         projectGit: '',
         projectLive: 'http://herculesfreight.com',
-        projectImage: '',
+        projectImage: HerculesImage,
     },
-    {
-        projectName: 'Jc Valves',
-        projectGit: '',
-        projectLive: '',
-        projectImage: '',
-    },
+    // {
+    //     projectName: 'Jc Valves',
+    //     projectGit: '',
+    //     projectLive: '',
+    //     projectImage: '',
+    // },
     {
         projectName: 'E-KINAMBA',
         projectGit: 'https://github.com/symplice-nunu/E-KINAMBA',
@@ -33,13 +39,13 @@ export const ProjectsData = [
         projectName: 'Imboni',
         projectGit: '',
         projectLive: 'http://imboni.fidalix.com/',
-        projectImage: '',
+        projectImage: Imboni,
     },
     {
         projectName: 'Chatpoint',
         projectGit: 'https://github.com/symplice-nunu/Chatpoint',
         projectLive: 'https://dev--brilliant-klepon-8f1761.netlify.app/',
-        projectImage: '',
+        projectImage: Chatpoint,
     },
     {
         projectName: 'Online Quiz',
@@ -64,5 +70,23 @@ export const ProjectsData = [
         projectGit: 'https://github.com/symplice-nunu/Primary_School',
         projectLive: '',
         projectImage: '',
+    },
+    {
+        projectName: 'MEAL MATE APP (UI/UX)',
+        projectGit: '',
+        projectLive: '',
+        projectImage: mealMateApp,
+    },
+    {
+        projectName: 'RIDE APP (UI/UX)',
+        projectGit: '',
+        projectLive: '',
+        projectImage: rideApp,
+    },
+    {
+        projectName: 'Bank Management System (UI/UX)',
+        projectGit: '',
+        projectLive: '',
+        projectImage: bms,
     }
 ]
