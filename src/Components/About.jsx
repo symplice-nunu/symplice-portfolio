@@ -1,9 +1,15 @@
 import React from 'react'
+import { BsFillPersonFill } from "react-icons/bs";
 
 function About() {
   return (
     <div>
-    <div className='mt-60 px-10 py-2 border border-gray-600 rounded-3xl w-36 text-white'>ABOUT</div>
+    <div className='mt-60 px-10 py-2 border border-gray-600 rounded-3xl w-36 text-white flex space-x-2'>
+      <div className='pt-1'>
+      <BsFillPersonFill />
+      </div>
+      <div>ABOUT</div>
+      </div>
     <div className='text-white text-[60px] my-10'>
         Every great design begin with <br /> an even <span className='text-[#8be88d]'> better story</span>
     </div>

@@ -1,9 +1,8 @@
 import React from 'react'
 import img from "../assets/DSC_0116.jpg"
-import linkedin from "../assets/linkedin.png"
-import github from "../assets/GitHub.png"
-import { socialMedia } from './socialMedia'
-import { Link} from 'react-router-dom'
+import { BsLinkedin } from "react-icons/bs";
+import { AiFillGithub } from "react-icons/ai";
+import { AiTwotoneMail } from "react-icons/ai";
 function SideBar() {
   return (
     <div className='px-10'>
@@ -22,17 +21,20 @@ function SideBar() {
             <span>&copy; 2022 Symplice All Rights Reserved</span>
         </div>
        <div className='flex flex-col space-y-32'>
-       <div className='text-center justify-center flex'>
+       <div className='text-center justify-center flex space-x-2'>
                                     <span>
-                                    <img className='w-10' src={ linkedin } />
+                                    <BsLinkedin />
                                     
                                     </span>
                                     <span>
-                                        <img className='w-10' src={ github } alt="" srcset="" />
+                                        <AiFillGithub />
                                     </span>
         </div>
         <div> 
-            <button className='bg-[#8eeb8d] text-black w-full h-[50px] rounded-3xl'>HIRE ME!</button>
+            <button className='bg-[#8eeb8d] text-black w-full h-[50px] rounded-3xl'>
+               
+                    HIRE ME!
+            </button>
         </div>
        </div>
     </div>

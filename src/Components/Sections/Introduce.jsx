@@ -1,14 +1,20 @@
 import React from 'react'
 import { SideBarIcons } from '../Data/SideBarIcons'
 import { AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineHome } from "react-icons/ai";
 
 function Introduce() {
   return (
     <div>
       
       <div className='flex justify-between'>
-        <div className='border border-gray-500 h-[40px] rounded-3xl py-2 px-6 text-white'>
-            INTRODUCE
+        <div className='border border-gray-500 h-[40px] rounded-3xl py-2 px-6 text-white flex space-x-2'>
+           <div className='pt-1'>
+           <AiOutlineHome /> 
+           </div> 
+           <div>
+           INTRODUCE
+           </div>
         </div> 
         <div className='text-white border-gray-500 border rounded-full w-[70px] h-[70px] px-6 py-6'>
            <span> <AiOutlineMenu /></span>
