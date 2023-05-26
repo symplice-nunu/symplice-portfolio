@@ -1,5 +1,6 @@
 import React from 'react'
 import { MdCastForEducation } from "react-icons/md";
+import { EducationData } from './Data/EducationData';
 
 function Resume() {
   return (
@@ -22,44 +23,24 @@ function Resume() {
                 <div className='border ml-[-8px] mt-[155px] border-[#636363] w-[17px] h-[17px] bg-[#636363] rounded-full'></div>
             </div>
             <div>
+            {
+                EducationData.map((item) => {
+                  return (
+                    
             <div>
+            <div className={`${ item.year === '2021 - Present' ? 'text-[#8be88d] mt-[-12px]' : 'text-gray-400' } mt-[54px]`}>{ item.year }</div>
+            <div className='text-white text-[35px] mt-5'>{ item.title }</div>
+            <div className='flex justify-between'>
+            <div className='text-gray-400'>{ item.company }</div>
+            <div className='text-gray-400'>{item.location}</div>
+          
+            </div>
+            <div className='text-gray-400 text-[13px] pt-2'>{ item.tools }</div>
+            </div>
+                  )
+                })
+            }
             
-            <div className='text-gray-400 text-[13px] pt-2'>PHP(CodeIgniter, Laravel, and wordpress) | Git | GitHub | Flutter | Sql Server | JQuery | ReactJs | MySql | HTML5 | CSS | Tailwind css</div>
-            </div>
-            <div>
-            <div className='mt-[54px] text-gray-400'>2019 - 2021</div>
-            <div className='text-white text-[35px] mt-5'>Software Developer</div>
-            <div className='flex justify-between'>
-            <div className='text-gray-400'>ITEME SDA</div>
-            <div className='text-gray-400'>Kigali, Rwanda</div>
-            </div>
-            <div className='text-gray-400 text-[13px] pt-2'>Java | PHP(CodeIgniter, Laravel) | MySql | Postgres | HTML5 | CSS | Tailwind css</div>
-            </div>
-            <div>
-            <div className='mt-[54px] text-gray-400'>02/2018 - 08/2018</div>
-            <div className='text-white text-[35px] mt-5'>Software Developer Intern</div>
-            <div className='flex justify-between'>
-            <div className='text-gray-400'>LYV Ltd</div>
-            <div className='text-gray-400'>Kigali, Rwanda</div>
-            </div>
-            <div className='text-gray-400 text-[13px] pt-2'>PHP | GIT | GITHUB | JIRA | MySql | HTML5 | CSS | Tailwind css</div>
-            </div>
-            <div>
-            <div className='mt-[54px] text-gray-400'>03/2017 - 11/2021</div>
-            <div className='text-white text-[35px] mt-5'>Bachelor's degree in Information Technology</div>
-            <div className='flex justify-between'>
-            <div className='text-gray-400'>Adventist University of Central Africa (AUCA)</div>
-            <div className='text-gray-400'>Kigali, Rwanda</div>
-            </div>
-            </div>
-            <div>
-            <div className='mt-[54px] text-gray-400'>2012 - 2015</div>
-            <div className='text-white text-[35px] mt-5'>A - Level</div>
-            <div className='flex justify-between'>
-            <div className='text-gray-400'>Saint Phillip Technical Secondary School</div>
-            <div className='text-gray-400'>Kigali, Rwanda</div>
-            </div>
-            </div>
             </div>
         
         </div>
