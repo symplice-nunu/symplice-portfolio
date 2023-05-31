@@ -60,8 +60,8 @@ export const ProjectsData = [
         projectImage: '',
     },
     {
-        projectName: 'E-Commerce Mobile App',
-        projectGit: 'https://github.com/symplice-nunu/Final_Project/tree/main/Shop',
+        projectName: 'Rent To Own Mobile App',
+        projectGit: 'https://github.com/symplice-nunu/rent_to_own_android_system',
         projectLive: '',
         projectImage: '',
     },
