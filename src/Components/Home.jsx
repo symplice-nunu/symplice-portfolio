@@ -8,6 +8,7 @@ import WorkedPojects from './Sections/WorkedPojects'
 import About from './About'
 import Resume from './Resume'
 import Certificates from './Sections/Certificates'
+import Modal from './Modal/Modal'
 
 function Home() {
   return (
@@ -21,6 +22,7 @@ function Home() {
       <div><Projects /></div>
       <div><Languages /></div>
       <div><Contact /></div>
+      {/* <div><Modal /></div> */}
     </div>
     
   )

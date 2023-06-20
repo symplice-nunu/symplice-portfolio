@@ -1,8 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { ProjectsData } from '../Data/ProjectsData'
 import { AiOutlineProject } from "react-icons/ai";
+import Modal from '../Modal/Modal';
 
 function Projects() {
+    const [isOpen, setIsOpen] = useState(false)
+    const [data, setData] = useState();
+
+  function closeModal() {
+    setIsOpen(false)
+  }
+
+  function openModal() {
+    setIsOpen(true)
+  }
+
   return (
     <div>
         <div className='text-white border my-12 w-[160px] border-gray-600 py-2 px-7 rounded-3xl space-x-2 flex'>
@@ -24,7 +36,10 @@ function Projects() {
             <img src={item.projectImage} alt="" className={`${item.projectImage === '' ? 'hidden' : null} rounded-3xl h-[200px] w-[360px]`} />
             </div>
             <div className='flex space-x-4 my-4'>
-            <div className={`bg-white px-6 py-2 rounded-l-full rounded-r-full`}>View</div>
+            <div onClick={() => {
+                openModal();
+                setData(item);
+            }} className={`cursor-pointer bg-white px-6 py-2 rounded-l-full rounded-r-full`}>View</div>
             <div className={`${ item.projectLive === '' ? "hidden" : null} bg-white px-6 py-2 rounded-l-full rounded-r-full`}>Live</div>
             <div className={`${ item.projectGit === '' ? "hidden" : null} bg-white px-6 py-2 rounded-l-full rounded-r-full`}>GitHub</div>
             </div>
@@ -35,6 +50,7 @@ function Projects() {
                 })
             }
         </div>
+        <Modal data={data} closeModal={closeModal} isOpen={isOpen} />
     </div>
   )
 }

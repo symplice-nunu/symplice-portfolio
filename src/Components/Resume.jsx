@@ -28,7 +28,7 @@ function Resume() {
                   return (
                     
             <div>
-            <div className={`${ item.year === '2021 - Present' ? 'text-[#8be88d] mt-[-9px]' : 'text-gray-400' } mt-[54px]`}>{ item.year }</div>
+            <div className={`${ item.year === '2021 - Present' ? 'text-[#8be88d] mt-[-7px]' : 'text-gray-400' } mt-[54px]`}>{ item.year }</div>
             <div className='text-white text-[35px] mt-5'>{ item.title }</div>
             <div className='flex justify-between'>
             <div className='text-gray-400'>{ item.company }</div>
